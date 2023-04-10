@@ -1,0 +1,92 @@
+/* Container for the entire calculator form */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header for the calculator form */
+  .calculator h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the number inputs */
+  .calculator .number-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  /* Label styles for the number inputs */
+  .calculator .number-inputs label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  /* Number input styles */
+  .calculator .number-inputs input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Container for the operator buttons */
+  .calculator .operator-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  /* Operator button styles */
+  .calculator .operator-buttons button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .calculator .operator-buttons button:hover {
+    background-color: #555;
+  }
+  
+  /* Container for the result input */
+  .calculator .result-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  /* Label styles for the result input */
+  .calculator .result-input label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  /* Result input styles */
+  .calculator .result-input input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

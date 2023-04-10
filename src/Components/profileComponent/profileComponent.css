@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,Impact, 'Arial Narrow Bold', sans-serif;
+  }
+  body {
+    background-color: whitesmoke;
+
+  }
+  .container {
+    margin-top: 2%;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0.4px 0.4px 0.4px 0.4px;
+    border-color: rgb(206, 208, 208);
+    border-style: solid;
+    box-shadow: 5px 5px 8px rgb(167, 163, 163);
+  }
+  .content {
+    display: block;
+    width: 100%;
+    min-height: 750px;
+    background-size: 100% 100%;
+    margin: 20px 0px 0px 0px;
+    border-width: px;
+    border-color: white;
+    border-style: solid;
+  }  
+
+  .profile{
+        width: 200px;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 50%;
+        padding-left: 50px;
+        padding-top: 30px;
+        display: inline-block;
+    }
+.header{
+    display: inline-block;
+    margin-top: 40px;
+    font-size: xx-large;
+    padding-left: 10%;
+}
+.sideleft
+{
+  background-color: rgb(218, 213, 213);
+  width: 25%;
+  height: 730px;
+  display: inline-flex;
+  float: left;
+}
+.sideleft-content
+{
+  padding-left: 5%;
+  padding-top: 10px;
+}
+.sideright
+{
+  padding-top: 1%;
+  display: inline-flex;
+  background-color: rgb(253, 253, 253);
+  width: 74%;
+  height: 100%;
+  float: right;
+}
+.sideright-content
+{
+  padding-left: 1%;
+  padding-top: 0px;
+}
+.nav
+{
+    padding-left: 45%;
+    padding-top: 5%;
+    /* background-color: black; */
+}
