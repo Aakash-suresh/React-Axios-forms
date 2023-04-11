@@ -2,7 +2,7 @@ body{
   font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #f5f5f5;
+	background-color: #000000;
 }
 header {
 	display: flex;
@@ -50,7 +50,7 @@ h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: black !important;
+  background-color: black ;
 }
 
 .box {

@@ -10,7 +10,7 @@ export class ProfileComponent extends Component {
   render() {
     return (
 
-    <div class="container">
+    <div class="container_1">
         <div class="profile">
             <img height="100%" width="100%" src={Photo}/>
         </div>
@@ -19,7 +19,7 @@ export class ProfileComponent extends Component {
                 <br/>
                 Ⅱ-year AI&ML
         </div>
-        <div class="content">
+        <div class="content_1">
             <div class="sideleft">
                 <div class="sideleft-content">
                         <h3><strong>Personal Info</strong><hr/></h3>
